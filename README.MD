@@ -51,6 +51,8 @@ Please return minimum seconds until there is no white item. If it is not possibl
 
 3. Repeat processing with the list of new unprocessed black item (from step 2) until there are no unprocessed black items.
 
+4. Check if the white item is still exist in the grid. If yes, return -1. Otherwise return the timer time.
+
 ---
 
 _Time complexity: O(m\*n)_
