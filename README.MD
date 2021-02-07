@@ -26,9 +26,12 @@ _The basic for this Big O calculation is each item of the array get processed on
 ## Problem #2
 
 Given a grid as input, each item is one of the below things.
-● 0: empty item
-● 1: white item
-● 2: black item
+
+- 0: empty item
+
+- 1: white item
+
+- 2: black item
 
 Every 2 seconds, white items that are adjacent (up, down, left, right) to black item become black.
 
@@ -48,9 +51,9 @@ Please return minimum seconds until there is no white item. If it is not possibl
 
 ---
 
-*Time complexity: O(m*n)\*
+_Time complexity: O(m\*n)_
 
-*Space complexity: O(m*n)\*
+_Space complexity: O(m\*n)_
 
 With m, n is the size of the grid.
 
