@@ -39,15 +39,17 @@ Please return minimum seconds until there is no white item. If it is not possibl
 
 ### Solution
 
-1. First, find all the black item.
+1. First, find all the black items and list them as unprocessed black item.
 
-2. Then process black items, for every 2 seconds, as follow:
+2. Then process black items, as follow:
 
 - Convert all the adjections white item of that the unprocessed black item which was identified
 
-- Add those new black item into a list
+- Add those new black items into a list of new unprocessed black item.
 
-3. Repeat processing from step 2 until there are no unprocessed black items.
+- Count this step as adding 2 seconds into the timer
+
+3. Repeat processing with the list of new unprocessed black item (from step 2) until there are no unprocessed black items.
 
 ---
 
